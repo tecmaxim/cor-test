@@ -1,12 +1,6 @@
 const _forIn = require('lodash.forin');
 const fs = require('fs');
 
-const chars = [..."ABCDEFGHI"];
-//const resp = [...Array(10)].map(i=>chars[Math.random()*chars.length|0]).join``;
-//const resp = Array.from({length: 1500}, () => [...Array(10)].map(i=>chars[Math.random()*chars.length|0]).join``);
-
-//console.log(resp); //return false;
-
 const initArray = ['chair', 'height', 'racket', 'touch', 'tunic'];
 let stringFinal;
 
